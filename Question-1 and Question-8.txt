@@ -1,0 +1,35 @@
+Question:1 : Define the terms: Website, Webpage, Web browser, Web server, HTML,
+             CSS
+ANswer:      
+             Webpage:
+             A document which can be displayed in a web browser such as Firefox, Google Chrome,                 Opera, Microsoft Edge, or Apple Safari. These are also often called just "pages."
+
+             Website:
+             A collection of web pages which are grouped together and usually connected together              in various ways. Often called a "website" or a "site."
+
+             Web server:
+	     A computer that hosts a website on the Internet.
+
+	     Web browser:
+	     A web browser takes you anywhere on the internet. It retrieves information from other              parts of the web and displays it on your desktop or mobile device. The information is              transferred using the Hypertext Transfer Protocol, which defines how text, images and              video are transmitted on the web.
+
+	     HTML:
+	     HTML stands for Hypertext Markup Language. It is a standard markup language for web 
+             page creation. It allows the creation and structure of sections, paragraphs, and              links using HTML elements such as tags and attributes
+
+	     CSS:
+             CSS stands for Cascading Style Sheets. It is the language for describing the 
+             presentation of Web pages, including colors, layout, and fonts, thus making our web 
+             pages presentable to the users. 
+
+
+Question:8: In how many ways can a CSS be integrated as a web page?
+
+Answer:     There are three ways can a CSS be intrgrated as a web page.
+
+	   1>. Inline:
+	        by using the style attribute inside HTML elements.
+	   2>. Internal: 
+	       by using a <style> element in the <head> section.
+	   3>. External:
+	       by using a <link> element to link to an external CSS file.

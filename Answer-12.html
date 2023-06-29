@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div::first-letter{
+            font-size: 20px;
+            color: red;
+        }
+        div::first-line{
+            color: aqua;
+        }
+        div::after{
+            content: "Bye";
+        }
+        div::before{
+            content: "Welcome";
+            /* content: url(); */
+        }
+        div::selection{
+            background-color: aqua;
+            color: blue;
+        }
+        li::marker{
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur rerum illo, architecto sint velit repellat quam iste repudiandae dolor? Ut ipsum id culpa odio iure ipsa quibusdam enim quas quod!
+    </div>
+    <ul>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ul>
+</body>
+</html>
